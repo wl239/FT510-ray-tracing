@@ -4,3 +4,12 @@ RITOW: 1. Overview
 Ray tracing: a path tracer.
 Final Outcome: a ray tracer that produces some great images.
 Why C++: fast, portable, and most production movie and video game renderers are written in C++.
+
+
+RITOW: 2.1 The PPM Image Format
+Way to see an image: write it to a file.
+For plain text ppm file, some Notes in C++:
+First, pixels: write from left to right
+Second, rows: write from top to bottom
+Third, each of components range: high dynamic
+
