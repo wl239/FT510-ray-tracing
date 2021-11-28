@@ -19,3 +19,8 @@ For Mac/Linux: build/inOneWeekend > image.ppm
 For Windows: build\Release\inOneWeekend.exe > image.ppm
 On Mac, using ToyViewer to open the output file (or Google "ppm viewer")
 
+RITOW: 2.3 Adding a Progress Indicator
+Advantages: track the progress of a long render; identify a run that's stalled out due to an infinite loop or other problem.
+image -- std::cout
+error -- std::cerr
+
