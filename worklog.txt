@@ -13,14 +13,23 @@ First, pixels: write from left to right
 Second, rows: write from top to bottom
 Third, each of components range: high dynamic
 
+
 RITOW: 2.2 Creating an Image File
 We need to redirect it to an image file. (because the file is written to the program output) -- Use > (which is a redirection operator)
 For Mac/Linux: build/inOneWeekend > image.ppm
 For Windows: build\Release\inOneWeekend.exe > image.ppm
 On Mac, using ToyViewer to open the output file (or Google "ppm viewer")
 
+
 RITOW: 2.3 Adding a Progress Indicator
 Advantages: track the progress of a long render; identify a run that's stalled out due to an infinite loop or other problem.
 image -- std::cout
 error -- std::cerr
+
+
+RITOW: 3. The vec3 Class
+Almost all graphics programs -- some classes for storing geometric vectors and colors.
+Vectors are 4D: 3D+a homogeneous coordinate for geometry & RGB+an alpha transparency channels for colors.
+We use the same class vec3 for colors, locations, directions, offsets, etc.
+Two aliases for vec3: point2 and color.
 
