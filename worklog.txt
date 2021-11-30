@@ -87,3 +87,9 @@ The equation for a sphere: x^2 + y^2 + z^2 = R^2 => (x-Cx)^2 + (y-Cy)^2 + (z-Cz)
 Solve the above equation for t.
 
 
+RITOW: 5.2 Creating Our First Raytraced Image
+Take the math and hard-code
+But lack something: shading and reflection rays and >1 objects.
+And we need to fix the issue: when z=+1, we will get the same picture.
+
+
