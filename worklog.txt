@@ -79,3 +79,11 @@ auto + initialization expression;
 ray_color(ray) -- depending on the height of the y coordinatie after scaling the ray direction to unit length (so -1.0 < y < 1.0) => a horizontal gradient to the color + the vertical gradient.
 
 
+RITOW: 5. Adding a Sphere
+RITOW: 5.1 Ray-Sphere Intersection
+The equation for a sphere: x^2 + y^2 + z^2 = R^2 => (x-Cx)^2 + (y-Cy)^2 + (z-Cz)^2 = r^2
+& our ray: P(t) = A + t(b)
+=> (P - C)(P - C) = r^2 => t^2*b*b + 2t*b*(A-C) + (A-C)*(A-C) - r^2 = 0
+Solve the above equation for t.
+
+
