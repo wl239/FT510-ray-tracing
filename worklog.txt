@@ -125,3 +125,11 @@ A hittable: a generic object, and the ray can intersect with.
 So we add a clase that stores a list of hittables.
 
 
+RITOW: 6.6 Some New C++ Features
+shared_ptr<type>: a pointer to some allocated type, with reference-counting semantics.
+                  every time you assign its value to another shared pointer, the reference count++.
+                  As the shared pointers go out of scope (at the end of a block or function), reference count--.
+                  #include <memory>
+make_shared<thing>(...): allocates a new instance of type thing, using the constructor parameters, return a shared_ptr<thing>. => we can using auto type specifier.
+
+
