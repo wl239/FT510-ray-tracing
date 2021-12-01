@@ -139,3 +139,11 @@ And define infinity by std::numeric_limits<double>::infinity();
 rtweekend.h: common useful constants and future utility functions
 
 
+RITOW: 7. Antialiasing
+RITOW: 7.1 Some Random Number Utilities
+a random number generator that returns real random numbers.
+rand(): #include <cstdlib>
+        0 ~ RAND_MAX
+Another: Use uniform distribution in #include <random>
+
+
