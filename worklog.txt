@@ -104,3 +104,9 @@ Simplify: when b = 2h, => solution = (-h-sqrt(h^2-ac))/a
 replace a vector dotted with itself = the squared length of that vector replaced by b = 2h
 
 
+RITOW: 6.3 An Abstraction for Hittable Objects
+Have an array of spheres => solution: make an abstract class for anything a ray might hit.
+Therefore, use "hittable": emphasized the member function that unites them.
+hit(): takes in a ray => add a valid interval for hits min_t to max_t.
+
+
