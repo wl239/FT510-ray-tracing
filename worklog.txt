@@ -133,3 +133,9 @@ shared_ptr<type>: a pointer to some allocated type, with reference-counting sema
 make_shared<thing>(...): allocates a new instance of type thing, using the constructor parameters, return a shared_ptr<thing>. => we can using auto type specifier.
 
 
+RITOW: 6.7 Common Constants and Utility Functions
+define pi as our own constant.
+And define infinity by std::numeric_limits<double>::infinity();
+rtweekend.h: common useful constants and future utility functions
+
+
