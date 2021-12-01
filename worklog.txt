@@ -99,3 +99,8 @@ get a surface normal => shade => a vector that is perpendicular to the surface a
 t > 0 => in front of the camera
 
 
+RITOW: 6.2 Simplifying the Ray-Sphere Intersection Code
+Simplify: when b = 2h, => solution = (-h-sqrt(h^2-ac))/a
+replace a vector dotted with itself = the squared length of that vector replaced by b = 2h
+
+
