@@ -147,3 +147,8 @@ rand(): #include <cstdlib>
 Another: Use uniform distribution in #include <random>
 
 
+RITOW: 7.2 Generating Pixels with Multiple Samples
+several samples within pixel -> each sends a ray => the color of each ray should be averaged
+=> Create a camera class and update write_color() function.
+
+
