@@ -179,3 +179,14 @@ Exception: t is near to 0, but not exactly equal to 0, e.g., t = 0.000000001
 Therefore, we need to ignore hits very near zero. => git rid of the shadow acne problem.
 
 
+RITOW: 8.5 True Lambertian Reflection
+Current rejection method: produce random points in the unit ball offset along the surface normal.
+=> Result: high probability close to the normal, a lower probability to scattering rays at grazing angles.
+Lambertian distribution: cos(fai)
+=> higher probability for ray scattering close to the nomal, the distribution is more uniform.
+Add random_unit_vector() function in vec3.h, it's a drop-in replacement for the existing random_in_unit_sphere() function.
+Compare:
+1) under Lambertian, shadows are less pronounced.
+2) under Lambertian, spheres are lighter in appearance.
+
+
