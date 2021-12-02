@@ -152,3 +152,15 @@ several samples within pixel -> each sends a ray => the color of each ray should
 => Create a camera class and update write_color() function.
 
 
+RITOW: 8. Diffuse Materials
+RITOW: 8.1 A Simple Diffuse Material
+Diffuse objects(don't emit light) take on the color of their surroundings, but they modulate that with their own intrinsic color.
+The darker the surface, the more likely absorption is.
+One way: ideal diffuse surface.
+Pick a random point in a unit radius sphere. And then use a rejection method.
+ve3.h:
+random utility function
+random_in_unit_sphere() function
+update ray_color() using a random ray directino in main.cpp
+
+
