@@ -217,3 +217,8 @@ vec3::near_zero() - returns true if the vector is very close to zero in all dime
 close to zero => a zero scatter direction vector => bad scenarios (infinities and NaNs)
 
 
+RITOW: 9.4 Mirrored Light Reflection
+For smooth metals the ray won't be randomly scattered.
+Given v and n(normal): we can get v - 2*dot(v,n)*n (~ this is reflection function)
+
+
