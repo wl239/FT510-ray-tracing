@@ -228,3 +228,10 @@ add some metal spheres to our scene
 + world
 
 
+RITOW: 9.6 Fuzzy Reflection
+randomize the reflected direction by using a smal sphere and choosing a new endpoint for the ray
+The bigger the sphere, the fuzzier the reflectinos will be.
+We can set fuzziness to metals.
+<formula1>?<formula2>:<formula3> -- if formula1 succeed, cout formula2; otherwise, cout formula3.
+
+
