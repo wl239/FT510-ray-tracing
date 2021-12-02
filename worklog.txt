@@ -174,3 +174,8 @@ RITOW: 8.3 Using Gamma Correction for Accurate Color Intensity
 Raising the color to the power 1/gamma, or use square-root.
 
 
+RITOW: 8.4 Fixing Shadow Acne
+Exception: t is near to 0, but not exactly equal to 0, e.g., t = 0.000000001
+Therefore, we need to ignore hits very near zero. => git rid of the shadow acne problem.
+
+
