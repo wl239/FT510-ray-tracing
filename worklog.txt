@@ -222,3 +222,9 @@ For smooth metals the ray won't be randomly scattered.
 Given v and n(normal): we can get v - 2*dot(v,n)*n (~ this is reflection function)
 
 
+RITOW: 9.5 A Scene with Metal Sphere
+add some metal spheres to our scene
++ material lambertian; metal;
++ world
+
+
