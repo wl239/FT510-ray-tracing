@@ -1,4 +1,4 @@
-CCFLAGS=--std=c++11 -pedantic -Wall -Werror -ggdb3
+CCFLAGS=--std=c++11 -pedantic -ggdb3
 ray_tracing:
 	g++ -o ray_tracing $(CCFLAGS) main.cpp
 
