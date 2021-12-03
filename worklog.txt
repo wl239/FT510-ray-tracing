@@ -1,3 +1,8 @@
 I am starting to work through Ray Tracing in One Weekend.
 
+RTIOW: 1. Overview
+Ray tracing: a path tracer.
+Final Outcome: a ray tracer that produces some great images.
+Why C++: fast, portable, and most production movie and video game renderers are written in C++.
+
 
