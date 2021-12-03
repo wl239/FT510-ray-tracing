@@ -303,3 +303,8 @@ Generate random scene rays originating from inside a disk centered at the lookfr
 The larger the radius, the greater the defocus blur.
 
 
+RTIOW: 13.1 A Final Render
+Add a lots of random spheres
+Glass balls no shadows. And on cloudy days, they seems to float. A point on the big sphere under a glass ball still has lots of light hitting it because the sky is re-ordered rather than blocked.
+
+
