@@ -291,3 +291,9 @@ Real camera: if need more light => make the aperture bigger => get more defocus 
 But for virtual camera, we can have a perfect sensor and never need more light, so we only have an aperture when we want defocus blur.
 
 
+RTIOW: 12.1 A Thin Lens Approximation
+We can simulate the order: sensor -> lens -> aperture -> figure out where to send the rays -> flip the image after it's computed.
+Camera inside: film. => that we don't need
+We start rays from the lens, and send them toward the focus plan.
+
+
