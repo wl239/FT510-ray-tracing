@@ -243,4 +243,14 @@ Hardest part
 Wrong: all the light refracts
 
 
+RTIOW: 10.2 Snell's Law
+eta * sin(theta) = eta' * sin(theta')
+theta and theta' are the angles from the normal
+eta and eta' are refractive indices: air = 1.0; glass = 1.3~1.7; diamond = 2.4
+Given theta and eta and eta', we can solve sin(theta') by the formula.
+Calculate a refracted ray R':
+R' = R'|_ + R'||
+R'|_ = eta/eta'(R + (-R*n)*n)
+
+
 
