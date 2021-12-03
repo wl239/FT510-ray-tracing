@@ -111,4 +111,14 @@ Therefore, use "hittable": emphasized the member function that unites them.
 hit(): takes in a ray => add a valid interval for hits min_t to max_t.
 
 
+RTIOW: 6.4 Front Faces Versus Back Faces
+This design decision for normals is whether they should always point out.
+We want to determine which side of the surface that the ray is coming from:
+So the ray is outside the sphere => the normal point outward;
+              inside             =>                  inward;
+Another: If the ray and the normal face in the same direction => taking the dot product of the two vectors => if positive => the ray is inside the object.
+Add front_face tracking to hit_record struct.
+Add surface side determination to the class.
+
+
 
