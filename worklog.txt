@@ -15,4 +15,11 @@ Second, rows: write from top to bottom
 Third, each of components range: high dynamic
 
 
+RTIOW: 2.2 Creating an Image File
+We need to redirect it to an image file. (because the file is written to the program output) -- Use > (which is a redirection operator)
+For Mac/Linux: build/inOneWeekend > image.ppm
+For Windows: build\Release\inOneWeekend.exe > image.ppm
+On Mac, using ToyViewer to open the output file (or Google "ppm viewer")
+
+
 
