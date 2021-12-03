@@ -211,4 +211,11 @@ Set up material in hittable.h and material will tell us how rays interact with t
 In hit_record => return a reference to the material.
 
 
+RTIOW: 9.3 Modeling Light Scatter and Reflectance
+Add Lambertian material: scatter always and attenuated by its reflectance(R); scatter with no attenuation but absorb the fraction (1-R) of the rays; or a mixture of those 2 strategies.
+set only scatter ~ p; set attenuation ~ albedo / p
+vec3::near_zero() - returns true if the vector is very close to zero in all dimensions.
+close to zero => a zero scatter direction vector => bad scenarios (infinities and NaNs)
+
+
 
