@@ -53,4 +53,9 @@ inline vec3 operator*(double t, const vec3 &v)
 inline vec3 operator*(const vec3 &v, double t)
 
 
+RTIOW: 3.3 Color Utility Functions
+Using vec3 class, create a utility function to write a single pixel's color out to the standard output stream.
+Then update main file by using vec3.h and color.h
+
+
 
