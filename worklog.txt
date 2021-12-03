@@ -1,0 +1,3 @@
+I am starting to work through Ray Tracing in One Weekend.
+
+
