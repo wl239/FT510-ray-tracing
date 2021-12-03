@@ -281,3 +281,13 @@ To specify the roll or sideways tilt of the camera: the rotation around the look
 Thus, we set "view up" vector (vup).
 
 
+RTIOW: 12. Defocus Blur
+Photographers call it depth of field.
+The reason of defocusing blur in real camera -- they need a big hole to gather light.
+The focus distance: the distance between the projection point and the plane where everything is in perfect focus.
+!!Note: focus distance != focal length
+focal length: the distance between the projection point and the image plane.
+Real camera: if need more light => make the aperture bigger => get more defocus blur.
+But for virtual camera, we can have a perfect sensor and never need more light, so we only have an aperture when we want defocus blur.
+
+
