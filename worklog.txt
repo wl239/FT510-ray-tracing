@@ -65,4 +65,19 @@ A -- the ray origin, b is the ray direction, P is a 3D position along a line in 
 => P(t) = A + tb.
 
 
+RTIOW: 4.2 Sending Rays Into the Scene
+Steps: the ray tracer sends rays through pixels and computes the color seen in the direction of those rays
+1) Calculate the ray from the eye to the pixel
+2) Determine which objects the ray intersects
+3) Compute a color for the intersection point
+We can do a simple camera for getting the code up and running. 
+Setting up the pixel dimensions for the rendered image: Use 16:9 aspect ratio, not square
+Setting up a virtual viewport (to pass our scene rays): pick a viewport two units in height.
+focal length: the distance between the project plane and the projection point to be one unit.
+Note: focal length not focus distance.
+Put the eye at (0,0,0), y-axis go up, x-axis to right. Do not make the ray direction a unit length vector.
+auto + initialization expression;
+ray_color(ray) -- depending on the height of the y coordinatie after scaling the ray direction to unit length (so -1.0 < y < 1.0) => a horizontal gradient to the color + the vertical gradient.
+
+
 
