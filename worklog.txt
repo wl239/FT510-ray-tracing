@@ -170,4 +170,9 @@ ray_color function is recursive: stop time => gails to hit anything. However, it
 Therefore we need to limit the maximum recursion depth.
 
 
+RTIOW: 8.3 Using Gamma Correction for Accurate Color Intensity
+"Gamma corrected": when we cannot see the shadow, we can use "gamma 2" to get a lighter color.
+Raising the color to the power 1/gamma, or use square-root.
+
+
 
