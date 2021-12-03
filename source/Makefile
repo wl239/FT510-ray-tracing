@@ -3,5 +3,5 @@ ray_tracing:
 	g++ -o ray_tracing $(CCFLAGS) main.cpp
 
 clean:
-	rm -f *~ ray_tracing
+	rm -f *.o *~ ray_tracing
 
