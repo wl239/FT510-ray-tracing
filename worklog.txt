@@ -263,4 +263,8 @@ Real glass has reflectivity that varies with angle - look at a window at a steep
 Add polynomial approximation by Christophe Schlick.
 
 
+RTIOW: 10.5 Modeling a Hollow Glass Sphere
+Use a negative radius, the surface normal points inward => bubble to make a hollow glass sphere.
+
+
 
