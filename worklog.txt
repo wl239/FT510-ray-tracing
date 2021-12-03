@@ -58,4 +58,11 @@ Using vec3 class, create a utility function to write a single pixel's color out 
 Then update main file by using vec3.h and color.h
 
 
+RTIOW: 4. Rays, a Simple Camera, and Background
+RTIOW: 4.1 The ray Class
+All tray tracers: have a ray class and compute what color is seen along a ray.
+A -- the ray origin, b is the ray direction, P is a 3D position along a line in 3D
+=> P(t) = A + tb.
+
+
 
