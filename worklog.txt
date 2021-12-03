@@ -165,4 +165,9 @@ random_in_unit_sphere() function
 update ray_color() using a random ray directino in main.cpp
 
 
+RTIOW: 8.2 Limiting the Number of Child Rays
+ray_color function is recursive: stop time => gails to hit anything. However, it's a long time.
+Therefore we need to limit the maximum recursion depth.
+
+
 
