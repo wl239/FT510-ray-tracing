@@ -274,3 +274,10 @@ Our image  is not square, the fov is different horizontally and vertically.
 Thus, we create h  = tan(theta/2)
 
 
+RTIOW: 11.2 Positioning and Orienting the Camera
+lookfrom: where we place the camera
+lookat: the point we look at
+To specify the roll or sideways tilt of the camera: the rotation around the lookat-lookfrom axis.
+Thus, we set "view up" vector (vup).
+
+
