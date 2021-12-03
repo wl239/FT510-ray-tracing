@@ -266,3 +266,11 @@ RTIOW: 10.5 Modeling a Hollow Glass Sphere
 Use a negative radius, the surgace normal points inward => bubble to make a hollow glass sphere.
 
 
+RTIOW: 11. Positionable Camera
+First, an adjustable field of view (fov) -- the angle you see through the portal.
+
+RTIOW: 11.1 Camera Viewing Geometry
+Our image  is not square, the fov is different horizontally and vertically.
+Thus, we create h  = tan(theta/2)
+
+
