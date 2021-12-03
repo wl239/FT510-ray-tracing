@@ -121,4 +121,9 @@ Add front_face tracking to hit_record struct.
 Add surface side determination to the class.
 
 
+RTIOW: 6.5 A List of Hittable Objects
+A hittable: a generic object, and the ray can intersect with.
+So we add a clase that stores a list of hittables.
+
+
 
