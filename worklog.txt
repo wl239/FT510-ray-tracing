@@ -257,3 +257,8 @@ Not all rays are refracted. So we need to determine if the ray can refract.
 Use rafraction_ratio * sin_theta > 1.0 to determine must reflect, otherwise can refract.
 
 
+RITOW: 10.4 Schlick Approximation
+Real glass has reflectivity that varies with angle - look at a window at a steepp angle and it becomes a mirror.
+Add polynomial approximation by Christophe Schlick.
+
+
