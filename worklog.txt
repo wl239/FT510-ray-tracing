@@ -297,4 +297,10 @@ Camera inside: film. => that we don't need
 We start rays from the lens and send them toward the focus plan.
 
 
+RTIOW: 12.2 Generating Sample Rays
+All scene rays originate from the lookfrom point.
+Generate random scene rays originating from inside a disk centered at the lookfrom point. => defocus blur
+The larger the radius, the greater the defocus blur.
+
+
 
