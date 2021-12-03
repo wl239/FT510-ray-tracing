@@ -20,9 +20,6 @@ color ray_color(const ray& r, const hittable& world, int depth) {
         if (rec.mat_ptr->scatter(r, rec, attenuation, scattered))
             return attenuation * ray_color(scattered, world, depth-1);
         return color(0,0,0);
-
-    //    point3 target = rec.p + rec.normal + random_in_hemisphere(rec.normal);
-    //    return 0.5 * ray_color(ray(rec.p, target - rec.p), world, depth-1);
     }
 
     vec3 unit_direction = unit_vector(r.direction());
