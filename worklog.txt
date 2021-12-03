@@ -191,4 +191,12 @@ Compare:
 2) under Lambertian, spheres are lighter in appearance.
 
 
+RTIOW: 8.6 An Alternative Diffuse Formulation
+Initial hack is an incorrect approximation of ideal Lambertian diffuse.
+Reason:
+1) Mathematically prove that the probability distribution is incorrect
+2) Intuitively explain why a cos() distribution is desirable.
+Another method: more intuitive approach => have a uniform scatter direction for all angles away from the hit point, with no dependence on the angle from the normal.
+
+
 
