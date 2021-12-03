@@ -27,7 +27,7 @@ color ray_color(const ray& r, const hittable& world, int depth) {
     return (1.0-t)*color(1.0, 1.0, 1.0) + t*color(0.5, 0.7, 1.0);
 }
 
-
+// random scene world
 hittable_list random_scene() {
     hittable_list world;
 
