@@ -28,4 +28,11 @@ image -- std::cout
 error -- std::cerr
 
 
+RTIOW: 3. The vec3 Class
+Almost all graphics programs -- some classes for storing geometric vectors and colors.
+Vectors are 4D: 3D+a homogeneous coordinate for geometry & RGB+an alpha transparency channels for colors.
+We use the same class vec3 for colors, locations, directions, offsets, etc.
+Two aliases for vec3: point2 and color.
+
+
 
