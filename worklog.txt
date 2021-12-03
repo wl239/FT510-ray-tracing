@@ -199,4 +199,11 @@ Reason:
 Another method: more intuitive approach => have a uniform scatter direction for all angles away from the hit point, with no dependence on the angle from the normal.
 
 
+RTIOW: 9. Metal
+RTIOW: 9.1 An Abstract Class for Materials
+Design a decision for different material => create an abstract material class that encapsulates behavior.
+1) produce a scattered ray
+2) If scattered, say how much the ray should be attenuated.
+
+
 
