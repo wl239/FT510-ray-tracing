@@ -206,4 +206,9 @@ Design a decision for different material => create an abstract material class th
 2) If scattered, say how much the ray should be attenuated.
 
 
+RTIOW: 9.2 A Data Structure to Describe Ray-Object Intersections
+Set up material in hittable.h and material will tell us how rays interact with the surface.
+In hit_record => return a reference to the material.
+
+
 
