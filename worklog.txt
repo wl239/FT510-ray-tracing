@@ -236,4 +236,11 @@ We can set fuzziness to metals.
 <formula1>?<formula2>:<formula3> -- if formula1 succeed, cout formula2; otherwise, cout formula3.
 
 
+RTIOW: 10. Dielectrics
+Dielectrics: water, glass, diamond
+RTIOW: 10.1 Refraction
+Hardest part
+Wrong: all the light refracts
+
+
 
